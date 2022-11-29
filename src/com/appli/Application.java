@@ -50,8 +50,8 @@ public interface Application {
 		Standard j2 = new Standard("Bernard", anneeA, "bernard@gmail.com", "PS3");
 		Gold j3 = new Gold("Théo", anneeA, "theo@gmail.com", "PS3");
 		Gold j4 = new Gold("Chloé", anneeA, "chloé@gmail.com", "PS3");// pseudo modifié, parfait <3
-		// Enfant jr1 = j1.creerCompteEnfant("Lucas", anneeE,"lucas@gmail.com", "PS3");
-		// Enfant jr2 = j2.creerCompteEnfant("Anna", anneeE,"anna@gmail.com", "PS3");
+		Enfant jr1 = j1.creerCompteEnfant("Lucas", anneeE,"lucas@gmail.com", "PS3");
+		Enfant jr2 = j2.creerCompteEnfant("Anna", anneeE,"anna@gmail.com", "PS3");
 
 		// initialisation d'amis
 		j1.ajouterAmis("Bernard");
@@ -116,7 +116,7 @@ public interface Application {
 							System.out.println("Sur quelle machine ?");
 							String machine = entreeString = inputReaderString.nextLine();
 							if (((JHumain) joueur).joueurPossedeJeu(nomJeu, machine)) {
-								Jeux jeu = MapsStorage.getJeuxWithNom(nomJeu, machine);
+								MapsStorage.getJeuxWithNom(nomJeu, machine);
 								System.out.println("Voulez vous jouer avec un Bot ?\n1 - Oui\n2 - Non");
 								entreeString = inputReaderString.next();
 								if (entreeString.equals("1")){
@@ -126,7 +126,7 @@ public interface Application {
 									joueur.afficherAmis();
 									inputReaderString.nextLine();
 									String nomJoueur = inputReaderString.nextLine();
-									Joueur joueur2 = MapsStorage.getJoueurWithPseudo(nomJoueur);
+									MapsStorage.getJoueurWithPseudo(nomJoueur);
 									((JHumain) joueur).jouerMultijoueur(nomJeu, j2); // pas de soucis meme si j2 est un
 																						// // bot
 								}
