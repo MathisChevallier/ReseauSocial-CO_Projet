@@ -1,6 +1,6 @@
 # ReseauSocial-CO_Projet
 
-/!\ Il s'agit d'un projet de première année d'école d'ingénieur, le code n'a pas été modifié depuis la date de rendu. /!\ 
+/!\ Il s'agit d'un projet de première année d'école d'ingénieur, le code n'a pas été modifié depuis la date de rendu.
 
 Le projet consiste en la création d'une application simplifiée permettant la gestion de la collection de jeux vidéo d'un réseau social et de mettre en relation des joueurs pour des parties cross-platform. La simplification réside notamenent dans l'absence de front-end. Il y a plusieurs type de comptes avec leurs caractéristiques respectives et la possibilité d'ajouter des personnes en ami selon des contraintes.
 
