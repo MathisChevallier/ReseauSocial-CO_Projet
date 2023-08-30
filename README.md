@@ -4,7 +4,9 @@
 
 Le projet consiste en la création d'une application simplifiée permettant la gestion de la collection de jeux vidéo d'un réseau social et de mettre en relation des joueurs pour des parties cross-platform. La simplification réside notamenent dans l'absence de front-end. Il y a plusieurs type de comptes avec leurs caractéristiques respectives et la possibilité d'ajouter des personnes en ami selon des contraintes.
 
-L'application respecte un certains nombres de règles défini dans un cahier des charges faisant office de sujet, détaillé dans le fichier : Ennoce-projet-ReseauSocial-ET3-2021-22.pdf
+L'application respecte un certains nombres de règles défini dans un cahier des charges faisant office de sujet, détaillé dans le fichier : 
+
+![Enonce](Ennoce-projet-ReseauSocial-ET3-2021-22.pdf)  
 
 La création de l'application comprend l'architecture et le développement en Java.
 
